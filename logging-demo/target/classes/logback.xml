@@ -9,8 +9,7 @@
         </encoder>
     </appender>
 
-    <!-- 2. FILE APPENDER (A second Dest
-    ination) -->
+    <!-- 2. FILE APPENDER (A second Destination) -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>demo.log</file>
         <encoder>

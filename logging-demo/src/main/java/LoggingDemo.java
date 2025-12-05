@@ -22,7 +22,6 @@ public class LoggingDemo
         int ingredientCount = 12;
 
         // Use '{}' placeholders for performance and security.
-
         logger.info("Processing recipe: {} with {} ingredients.", recipeName, ingredientCount);
 
         // 3. Log a DEBUG message (will be filtered out by default Logback settings)
